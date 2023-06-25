@@ -1,3 +1,8 @@
+*{
+  padding: 0;
+  margin: 0;
+  color: white;
+}
 nav {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   background-color: grey;
@@ -5,14 +10,13 @@ nav {
 .nav-link{
   color: white;
 }
-*{
-  padding: 0;
-  margin: 0;
-  color: white;
-}
 .skill{
   background-color: rgb(21, 49, 49);
   padding: 40px
+}
+#kontak{
+  background-color: rgb(21, 49, 49);
+  padding: 40px;
 }
 .nav-link:active{
   color: cadetblue;
@@ -23,6 +27,13 @@ nav {
 }
 .intro{
   text-shadow: 10ex;
+}
+.codepan{
+  text-decoration: none;
+  color: black;
+}
+.codepan:hover{
+  color: blue;
 }
 .jumbotron {
   background-image: url("foto/foto1.jpg");
@@ -46,6 +57,13 @@ nav {
 }
 .subtitle{
   font-size: 20px
+}
+.smkn2sby{
+  text-decoration: none; 
+  color: black;
+}
+.smkn2sby:hover{
+  color: blue;
 }
 .carousel-img {
   width: 100%;
